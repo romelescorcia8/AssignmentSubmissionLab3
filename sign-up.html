@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.:: Trip Canada ::. Sign - Up</title>
+    <link href="resources/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+    <div class="logo"><img src="/images/logo.jpeg"></div>
+
+    <div class="divsearch">What is your next destination?
+        <form action="google.com" method="GET">
+            <input type="search" size="50" id="searching1" name="searching1" >
+        </form>
+    </div>
+    <div class="divmenu">
+        <table border=0 width = 100%>
+            <tr>
+                <td>
+                    <a href="index.html">Home</a>
+                </td>
+                <td>
+                    <a href="about.html">About</a>
+                </td>
+                <td>
+                    <a href="services.html">Services</a>
+                </td>
+                <td>
+                    <a href="contact.html">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+   </header>
+   <br><br><br>
+   <h1>Sign Up</h1>
+<div class="forms">
+    <form name="form-sign-up" action="successful.html" method="POST">
+            <fieldset>
+                Personal Information<br><br>
+            <label>First Name:</label> <input name="first-name" id="first-name" type="text" required><br>
+            <label>Last Name:</label> <input name="last-name" id="last-name" type="text" required><br>
+            <label>Birth Date:</label> <input name="birthdate" id="birthdate" type="date" required><br>
+            <label>Phone Number:</label> <input name="phonenumber" id="phonenumber" type="number" maxlength="10" min="1" required><br>
+            <fieldset>Gender<br>
+                <input type="radio" id="gender" name="gender" value="male">
+                            <label for="Female">Female</label><br>
+                <input type="radio" id="gender" name="gender" value="female">
+                            <label for="Male">Male</label><br>
+                        
+                        
+            </fieldset>
+            </fieldset>
+            <br>
+            <fieldset>
+                Login Information<br><br>
+            <label>What username would you like to use?:</label> <input name="username" id="username" type="text" required><br>
+            <label>E-mail:</label> <input name="email" id="email" type="email" required><br>
+            <label>Password:</label> <input name="password" id="password" type="password" required><br>
+            <label>Password Confirmation:</label> <input name="passwordconfirmation" id="passwordconfirmation" type="password" required><br>
+            </fieldset>    
+            <br>
+            <fieldset>
+            We want to know a little bit about you<br><br>
+            <label>How did you know of us? Tell us:</label><br>
+            <textarea id="moreinformation" name="moreinformation" rows="4" cols="30"></textarea><br><br>
+
+            <label>what social network do you use?:</label><br>
+            <input type="checkbox" id="Facebook-Check" name="Facebook-Check" value="Facebook">
+            <label for="Facebook"> Facebook</label><br>
+            <input type="checkbox" id="Twitter-Check" name="Twitter-Check" value="Twitter">
+            <label for="Twitter"> Twitter</label><br>
+            <input type="checkbox" id="Instagram-Check" name="Instagram-Check" value="Instagram">
+            <label for="Instagram"> Instagram</label><br>
+            </fieldset>
+
+            <input name="sign-upbottom" id="sign-upbottom" type="submit" value="Sign Up">
+    </form>
+</div>
+<br>
+
+<footer>
+    <div class="divfooterleft">
+        <table width=100%>
+            <tr>
+                <td>
+                    <a href="index.html">Home</a>
+                </td>
+                <td>
+                    <a href="about.html">About</a>
+                </td>
+                <td>
+                    <a href="services.html">Services</a>
+                </td>
+                <td>
+                    <a href="contact.html">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="divfootermid" >
+            <b>Designed by:</b><br><br>
+
+            Romel Alberto Escorcia
+            TriOs College - Sault College
+
+    </div>
+    <div class="divfooterright">
+        Follow us in Facebook or Instagram
+    </div>
+</footer>
+
+</body>
+</html>
